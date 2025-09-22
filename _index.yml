@@ -1,14 +1,48 @@
-indexpage:
-  title: # Unquoted string 
-  lead: # Quoted string
-  summary: # Quoted string 
-  keywords: # Unquoted comma-delimited list of keywords 
-  tiles: 
-    # Tile definition 
-    - title: # Quoted or unquoted string
-      links: 
-        # Link definition
-        - title: # Quoted or unquoted string
-          url: # Path to target
-        # Next link on this tile (title/url pair)
-    # Next tile on this page (title/links)
+product-family:
+  title: NetApp Console management and data services
+  lead: "The NetApp Console provides centralized management of storage and data services across on-premises and cloud environments at enterprise scale.  Browse the docs by product area or use search to find content."
+  summary: "The NetApp Console provides centralized management of storage and data services across on-premises and cloud environments at enterprise scale. Browse the docs by product area or use search to find content."
+  sidebarlinks:
+    - title: All
+      tags: all
+      class: active
+    - title: API
+      tags: api
+    - title: Agents
+      tags: console
+    - title: Console administration
+      tags: console
+    - title: Governance
+      tags: console
+    - title: Health
+      tags: console
+    - title: Mobility
+      tags: data services
+    - title: Protection
+      tags: data services
+    - title: Storage
+      tags: storage
+    - title: Workloads
+      tags: data services
+      
+  tiles:
+    - title: "NetApp Console"
+      icon: ./media/icon-admin.png
+      url: ../bluexp-setup-admin/index.html
+      summary: "Set up and administer the NetApp Console to manage storage administration access, agents, licensing, and security."
+      tags: all,console
+    - title: "Storage management"
+      icon: ./media/icon-fsx.png
+      url: ../bluexp-fsx-ontap/index.html
+      summary: "Centralized storage management for on-premises and cloud storage systems from the NetApp Console."
+      tags: all,storage,aws
+    - title: "NetApp Data Services"
+      icon: ./media/icon-backup.png
+      url: ../bluexp-backup-recovery/index.html
+      summary: "Protect and secure your storage with NetApp Data Services from the NetApp Console. Use Backup and Recovery, Ransomware Resilience, Disaster Recovery, and more."
+      tags: all,data services
+    - title: "Release notes"
+      icon: ./media/icon-docs.png
+      url: ../bluexp-relnotes/index.html
+      summary: "Learn what's new in the NetApp Console and NetApp Data Services."
+      tags: all
