@@ -1,14 +1,14 @@
-NetApp provides support for BlueXP and its cloud services in a variety of ways. Extensive free self-support options are available 24/7, such as knowledgebase (KB) articles and a community forum. Your support registration includes remote technical support via web ticketing.
+NetApp provides support for NetApp Console and its cloud services in a variety of ways. Extensive free self-support options are available 24/7, such as knowledge base (KB) articles and a community forum. Your support registration includes remote technical support via web ticketing.
 
 == Get support for a cloud provider file service
 
-For technical support related to a cloud provider file service, its infrastructure, or any solution using the service, refer to "Getting help" in the BlueXP documentation for that product.
+For technical support related to a cloud provider file service, its infrastructure, or any solution using the service, refer to the documentation for that product.
 
-* link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/start/concept-fsx-aws.html#getting-help[Amazon FSx for ONTAP^]
-* link:https://docs.netapp.com/us-en/bluexp-azure-netapp-files/concept-azure-netapp-files.html#getting-help[Azure NetApp Files^]
-* link:https://docs.netapp.com/us-en/bluexp-google-cloud-netapp-volumes/concept-gcnv.html#getting-help[Google Cloud NetApp Volumes^]
+* link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/start/concept-fsx-aws.html#getting-help[Amazon FSx for ONTAP^]
+* link:https://docs.netapp.com/us-en/storage-management-azure-netapp-files/concept-azure-netapp-files.html#getting-help[Azure NetApp Files^]
+* link:https://docs.netapp.com/us-en/storage-management-google-cloud-netapp-volumes/concept-gcnv.html#getting-help[Google Cloud NetApp Volumes^]
 
-To receive technical support specific to BlueXP and its storage solutions and services, use the support options described below.
+To receive technical support specific to NetApp and its storage solutions and data services, use the support options described below.
 
 == Use self-support options
 
@@ -16,15 +16,15 @@ These options are available for free, 24 hours a day, 7 days a week:
 
 * Documentation
 +
-The BlueXP documentation that you're currently viewing.
+The NetApp Console documentation that you're currently viewing.
 
 * https://kb.netapp.com/Cloud/BlueXP[Knowledge base^]
 +
-Search through the BlueXP knowledge base to find helpful articles to troubleshoot issues.
+Search through the NetApp knowledge base to find helpful articles to troubleshoot issues.
 
 * http://community.netapp.com/[Communities^]
 +
-Join the BlueXP community to follow ongoing discussions or create new ones.
+Join the NetApp Console community to follow ongoing discussions or create new ones.
 
 == Create a case with NetApp support
 
@@ -32,13 +32,13 @@ In addition to the self-support options above, you can work with a NetApp Suppor
 
 .Before you get started
 
-* To use the *Create a Case* capability, you must first associate your NetApp Support Site credentials with your BlueXP login. https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-user-credentials.html[Learn how to manage credentials associated with your BlueXP login^].
+* To use the *Create a Case* capability, you must first associate your NetApp Support Site credentials with your Console login. https://docs.netapp.com/us-en/bluexp-setup-admin/task-manage-user-credentials.html[Learn how to manage credentials associated with your Console login^].
 
 * If you're opening a case for an ONTAP system that has a serial number, then your NSS account must be associated with the serial number for that system.
 
 .Steps
 
-. In BlueXP, select *Help > Support*.
+. In NetApp Console, select *Help > Support*.
 
 . On the *Resources* page, choose one of the available options under Technical Support:
 
@@ -46,11 +46,11 @@ In addition to the self-support options above, you can work with a NetApp Suppor
 
 .. Select *Create a Case* to open a ticket with a NetApp Support specialist:
 +
-* *Service*: Select the service that the issue is associated with. For example, BlueXP when specific to a technical support issue with workflows or functionality within the service.
+* *Service*: Select the service that the issue is associated with. For example, *NetApp Console* when specific to a technical support issue with workflows or functionality within the Console.
 
-* *Working Environment*: If applicable to storage, select *Cloud Volumes ONTAP* or *On-Prem* and then the associated working environment.
+* *System*: If applicable to storage, select *Cloud Volumes ONTAP* or *On-Prem* and then the associated working environment.
 +
-The list of working environments are within scope of the BlueXP organization (or account), project (or workspace), and Connector you have selected in the top banner of the service.
+The list of systems are within scope of the Console organization, and Console agent you have selected in the top banner.
 
 * *Case Priority*: Choose the priority for the case, which can be Low, Medium, High, or Critical.
 +
@@ -65,7 +65,7 @@ To learn more details about these priorities, hover your mouse over the informat
 Attachments are limited to 25 MB per file. The following file extensions are supported: txt, log, pdf, jpg/jpeg, rtf, doc/docx, xls/xlsx, and csv.
 
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-create-case.png[A screenshot of the Create a Case form that enables you to create a case with NetApp Support.]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-create-case.png[A screenshot of the Create a Case form that enables you to create a case with NetApp Support.]
 
 .After you finish
 
@@ -77,16 +77,15 @@ It's possible that you might encounter the following error message when trying t
 
 "You are not authorized to Create a Case against the selected service"
 
-This error could mean that the NSS account and the company of record it's associated with is not the same company of record for the BlueXP account serial number (ie. 960xxxx) or the working environment serial number. You can seek assistance using one of the following options:
+This error could mean that the NSS account and the company of record it's associated with is not the same company of record for the NetApp Console account serial number (ie. 960xxxx) or the working environment serial number. You can seek assistance using one of the following options:
 
-* Use the in-product chat
+
 * Submit a non-technical case at https://mysupport.netapp.com/site/help
 
-== Manage your support cases (Preview)
+== Manage your support cases
 
-You can view and manage active and resolved support cases directly from BlueXP. You can manage the cases associated with your NSS account and with your company.
+You can view and manage active and resolved support cases directly from the Console. You can manage the cases associated with your NSS account and with your company.
 
-Case management is available as a Preview. We plan to refine this experience and add enhancements in upcoming releases. Please send us feedback by using the in-product chat.
 
 Note the following:
 
@@ -106,29 +105,26 @@ View the steps below for more details.
 
 .Steps
 
-. In BlueXP, select *Help > Support*.
+. In the NetApp Console, select *Help > Support*.
 
-. Select *Case Management* and if you're prompted, add your NSS account to BlueXP.
+. Select *Case Management* and if you're prompted, add your NSS account to the Console.
 +
-The *Case management* page shows open cases related to the NSS account that is associated with your BlueXP user account. This is the same NSS account that appears at the top of the *NSS management* page.
+The *Case management* page shows open cases related to the NSS account that is associated with your Console user account. This is the same NSS account that appears at the top of the *NSS management* page.
 
 . Optionally modify the information that displays in the table:
 
 * Under *Organization's cases*, select *View* to view all cases associated with your company.
 
 * Modify the date range by choosing an exact date range or by choosing a different time frame. 
-+
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-date-range.png["A screenshot of the option above the table on the Case management page that enables you to choose an exact date range or the last 7 days, 30 days, or 3 months."]
+
 
 * Filter the contents of the columns.
-+
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-filter.png[A screenshot of the filter option in the Status column that enables you to filter out cases that match a specific status such as Active or Closed.]
 
-* Change the columns that appear in the table by selecting image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-columns.png[The plus icon that appears in the table] and then choosing the columns that you'd like to display.
-+
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-columns.png[A screenshot that shows the columns that you can show in the table.]
 
-. Manage an existing case by selecting image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-table-action.png[An icon with three dots that appears in the last column of the table] and selecting one of the available options:
+* Change the columns that appear in the table by selecting image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-table-columns.png[The plus icon that appears in the table] and then choosing the columns that you'd like to display.
+
+
+. Manage an existing case by selecting image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-table-action.png[An icon with three dots that appears in the last column of the table] and selecting one of the available options:
 
 * *View case*: View full details about a specific case.
 
@@ -138,5 +134,3 @@ Attachments are limited to 25 MB per file. The following file extensions are sup
 
 * *Close case*: Provide details about why you're closing the case and select *Close case*.
 
-+
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-case-management-actions.png[A screenshot that shows the actions that you can take after selecting the menu in the last column of the table.]
