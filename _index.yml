@@ -1,7 +1,7 @@
 product-family:
-  title: NetApp Console management and data services
-  lead: "The NetApp Console provides centralized management of storage and data services across on-premises and cloud environments at enterprise scale.  Browse the docs by product area or use search to find content."
-  summary: "The NetApp Console provides centralized management of storage and data services across on-premises and cloud environments at enterprise scale. Browse the docs by product area or use search to find content."
+  title: NetApp Console documentation
+  lead: "The NetApp Console provides centralized management of storage and data services across on-premises and cloud environments. It delivers unified control, operational simplicity, and secured management. Browse documentation by feature or use search to find content."
+  summary: "The NetApp Console provides centralized management of storage and data services across on-premises and cloud environments. It delivers unified control, operational simplicity, and secured management. Browse documentation by feature or use search to find content."
   sidebarlinks:
     - title: All
       tags: all
@@ -9,13 +9,13 @@ product-family:
     - title: API
       tags: api
     - title: Agents
-      tags: console
-    - title: Console administration
+      tags: agents
+    - title: Administration
       tags: console
     - title: Governance
-      tags: console
+      tags: governance
     - title: Health
-      tags: console
+      tags: health
     - title: Mobility
       tags: data services
     - title: Protection
@@ -24,25 +24,78 @@ product-family:
       tags: storage
     - title: Workloads
       tags: data services
-      
   tiles:
-    - title: "NetApp Console"
+    - title: "Setup and administration"
       icon: ./media/icon-admin.png
       url: ../bluexp-setup-admin/index.html
-      summary: "Set up and administer the NetApp Console to manage storage administration access, agents, licensing, and security."
-      tags: all,console
-    - title: "Storage management"
-      icon: ./media/icon-fsx.png
-      url: ../bluexp-fsx-ontap/index.html
-      summary: "Centralized storage management for on-premises and cloud storage systems from the NetApp Console."
-      tags: all,storage,aws
+      summary: "Learn how to start using the NetApp Console., including setting up access management and agents."
+      tags: all, console, agents
     - title: "NetApp Data Services"
-      icon: ./media/icon-backup.png
-      url: ../bluexp-backup-recovery/index.html
-      summary: "Protect and secure your storage with NetApp Data Services from the NetApp Console. Use Backup and Recovery, Ransomware Resilience, Disaster Recovery, and more."
-      tags: all,data services
+      icon: ./media/icon-software-updates.png
+      url: ../bluexp-software-updates/index.html
+      summary: "Protect and secure your storage infrastructure."
+      tags: all,health, data services
+    - title: "Storage management"
+      icon: ./media/icon-software-updates.png
+      url: ../bluexp-software-updates/index.html
+      summary: "Centralized management for both on-premises and cloud storage."
+      tags: all,storage
     - title: "Release notes"
       icon: ./media/icon-docs.png
       url: ../bluexp-relnotes/index.html
-      summary: "Learn what's new in the NetApp Console and NetApp Data Services."
+      summary: "Learn what's new across all of the NetApp Console platform and data services."
       tags: all
+    - title: "API"
+      icon: ./media/icon-api.png
+      url: https://docs.netapp.com/us-en/bluexp-automation/index.html
+      summary: "Programmatically administer your cloud-based resources."
+      tags: all,api
+    - title: "Audit"
+      icon: ./media/icon-automation.png
+      url: https://docs.netapp.com/us-en/netapp-automation/solutions/bac-overview.html
+      summary: "Audit both user and data-level activity, and detect anomalies​."
+      tags: all, console
+    - title: "Automation hub"
+      icon: ./media/icon-automation.png
+      url: https://docs.netapp.com/us-en/netapp-automation/solutions/bac-overview.html
+      summary: "Use scripted solutions to automate the deployment and integration of NetApp products and services."
+      tags: all,governance
+    - title: "Digital advisor (Active IQ)"
+      icon: ./media/icon-activeiq.png
+      url: ../active-iq/index.html
+      tags: all,health
+      summary: "Actionable intelligence for optimal storage health."
+    - title: "Licenses and subscriptions"
+      icon: ./media/icon-digital-wallet.png
+      url: ../bluexp-digital-wallet/index.html
+      tags: all,console
+      summary: "Manage and monitor your licenses and subscriptions."
+    - title: "Lifecycle planning"
+      icon: ./media/icon-economic-efficiency.png
+      url: ../bluexp-economic-efficiency/index.html
+      summary: "Receive recommendations for systems nearing capacity limits and systems approaching the end of their service life."
+      tags: all,storage
+    - title: "NetApp Data Services"
+      icon: ./media/icon-software-updates.png
+      url: ../bluexp-software-updates/index.html
+      summary: "Protect and secure your storage infrastructure."
+      tags: all,health, data services
+    - title: "Software updates"
+      icon: ./media/icon-software-updates.png
+      url: ../bluexp-software-updates/index.html
+      summary: "Automate the assessment, planning, and execution of ONTAP upgrades."
+      tags: all,health, storage
+    - title: "Storage system alerts"
+      icon: ./media/icon-alerts.png
+      url: ../bluexp-alerts/index.html
+      summary: "View and act on real-time system alerts for ONTAP on-premises systems."
+      tags: all,storage
+    - title: Sustainability
+      icon: ./media/icon-sustainability.png
+      url: ../bluexp-sustainability/index.html
+      summary: "Monitor systems' environmental impact to achieve sustainability goals."
+      tags: all,health
+
+  
+  
+ 
