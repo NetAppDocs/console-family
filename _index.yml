@@ -32,12 +32,12 @@ product-family:
       tags: all, console, agents
     - title: "NetApp Data Services"
       icon: ./media/icon-backup.png
-      url: https://docs.netapp.com/en-us/data-services-family/index.html
+      url: ../data-services-family/index.html
       summary: "Protect and secure your storage infrastructure."
       tags: all,health, data services
     - title: "Storage management"
       icon: ./media/icon-onprem.png
-      url: https://docs.netapp.com/en-us/storage-management-family/index.html
+      url: ../storage-management-family/index.html
       summary: "Centralized management for both on-premises and cloud storage."
       tags: all,storage
     - title: "Release notes"
@@ -70,11 +70,6 @@ product-family:
       url: ../console-lifecycle-planning/index.html
       summary: "Receive recommendations for systems nearing capacity limits and systems approaching the end of their service life."
       tags: all,storage
-    - title: "NetApp Data Services"
-      icon: ./media/icon-backup.png
-      url: ../data-services-family/index.html
-      summary: "Protect and secure your storage infrastructure."
-      tags: all,health, data services
     - title: "Software updates"
       icon: ./media/icon-software-updates.png
       url: ../console-software-updates/index.html
