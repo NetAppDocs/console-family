@@ -25,7 +25,7 @@ product-family:
     - title: Workloads
       tags: data services
   tiles:
-    - title: "Setup and administration"
+    - title: "NetApp Console administration"
       icon: ./media/icon-admin.png
       url: ../console-setup-admin/index.html
       summary: "Learn how to start using the NetApp Console, including setting up access management and agents."
