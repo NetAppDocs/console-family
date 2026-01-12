@@ -68,7 +68,7 @@ If you are brand new to NetApp and you don't have an NSS account, follow each st
 
 . Locate your account ID serial number from the Support Registration page.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-serial-number.png[A screenshot of the Help menu where Support is the first option listed]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-serial-number.png[A screenshot of the Help menu where Support is the first option listed]
 
 . Navigate to https://register.netapp.com[NetApp's support registration site^] and select *I am not a registered NetApp Customer*.
 
@@ -122,7 +122,7 @@ These NSS credentials are associated with your specific Console account ID. User
  
 . In the upper right of the Console, select the Help icon, and select *Support*.
 +
-image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/screenshot-help-support.png[A screenshot of the Help menu where Support is the first option listed]
+image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/screenshot-help-support.png[A screenshot of the Help menu where Support is the first option listed]
 
 . Select *NSS Management > Add NSS Account*.
 
@@ -146,8 +146,8 @@ The same is true if you have pre-existing customer-level NSS accounts and try to
 
 * Upon successful login, NetApp will store the NSS user name. 
 +
-This is a system-generated ID that maps to your email. On the *NSS Management* page, you can display your email from the image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png[An icon of three horizontal dots] menu.
+This is a system-generated ID that maps to your email. On the *NSS Management* page, you can display your email from the image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png[An icon of three horizontal dots] menu.
 
-* If you ever need to refresh your login credential tokens, there is also an *Update Credentials* option in the image:https://raw.githubusercontent.com/NetAppDocs/bluexp-family/main/media/icon-nss-menu.png[An icon of three horizontal dots] menu. 
+* If you ever need to refresh your login credential tokens, there is also an *Update Credentials* option in the image:https://raw.githubusercontent.com/NetAppDocs/console-family/main/media/icon-nss-menu.png[An icon of three horizontal dots] menu. 
 +
 Using this option prompts you to log in again. Note that the token for these accounts expire after 90 days. A notification will be posted to alert you of this.
