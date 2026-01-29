@@ -55,6 +55,11 @@ product-family:
       url: https://docs.netapp.com/us-en/netapp-automation/solutions/bac-overview.html
       summary: "Use scripted solutions to automate the deployment and integration of NetApp products and services."
       tags: all,governance
+    - title: "Data Infrastructure Insights"
+      icon: ./media/icon-compute.png
+      url: https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html
+      tags: all,governance
+      summary: "Monitor, troubleshoot and optimize all your resources including your public clouds and your private data centers."
     - title: "Digital advisor (Active IQ)"
       icon: ./media/icon-activeiq.png
       url: ../active-iq/index.html
