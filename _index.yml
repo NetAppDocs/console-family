@@ -28,7 +28,7 @@ product-family:
     - title: "NetApp Console administration"
       icon: ./media/icon-admin.png
       url: ../console-setup-admin/index.html
-      summary: "Learn how to start using the NetApp Console, including setting up access management and agents."
+      summary: "Learn how to start using the NetApp Console, including setting up access management and Console agents."
       tags: all, console, agents
     - title: "NetApp Data Services"
       icon: ./media/icon-backup.png
