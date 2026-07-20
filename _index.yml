@@ -90,6 +90,10 @@ product-family:
       url: https://docs.netapp.com/us-en/active-iq/learn_BlueXP_sustainability.html
       summary: "Monitor systems' environmental impact to achieve sustainability goals."
       tags: all,health
+    - title: Well-architected dashboard
+      url: https://docs.netapp.com/us-en/console-well-architected/index.html
+      summary: "Maintain reliable, secure, efficient, and cost-effective storage configurations based on best practices."
+      tags: all,health,storage
 
   
   
