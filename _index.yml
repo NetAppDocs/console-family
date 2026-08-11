@@ -60,6 +60,11 @@ product-family:
       url: https://docs.netapp.com/us-en/data-infrastructure-insights/task_cloud_insights_onboarding_1.html
       tags: all,governance
       summary: "Monitor, troubleshoot and optimize all your resources including your public clouds and your private data centers."
+    - title: "AI Data Engine"
+      icon: ./media/icon-tiering.png
+      url: https://docs.netapp.com/us-en/netapp-aide/index.html
+      tags: all,governance
+      summary: "Identify storage optimization opportunities, manage data lifecycle decisions, and take action on your data directly from NetApp Console."
     - title: "Digital advisor (Active IQ)"
       icon: ./media/icon-activeiq.png
       url: ../active-iq/index.html
