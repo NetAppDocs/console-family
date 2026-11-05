@@ -55,7 +55,7 @@ product-family:
       summary: "Monitor, troubleshoot and optimize all your resources including your public clouds and your private data centers."
     - title: "AI Data Engine"
       icon: ./media/icon-tiering.png
-      url: https://docs.netapp.com/us-en/netapp-aide/index.html
+      url: https://docs.netapp.com/us-en/ai-data-engine/index.html
       tags: all,governance
       summary: "Identify storage optimization opportunities, manage data lifecycle decisions, and take action on your data directly from NetApp Console."
     - title: "Digital advisor (Active IQ)"
